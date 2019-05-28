@@ -1,0 +1,168 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+
+\begin{document}
+
+\header{Paweł}{Weber}           % Your name
+\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{contact}
+Siemianowicka 3/7
+52-014 Wrocław
+~
++48 793 567 045
+~
+pawelweber@yahoo.pl
+%
+\section{languages}
+    \begin{itemize}
+        \item[Polish] - native
+        \item[English] - B2/C1
+    \end{itemize}
+%
+\section{programming}
+\begin{itemize}
+    \item[{\color{red} $\varheartsuit$} Python] - advanced
+    \item[Bash] - intermediate
+    \item[ANSI C] - intermediate
+    \item[\LaTeX{}] - intermediate
+\end{itemize}
+%
+\section{skills}
+\begin{itemize}
+    \item[Agile] - advanced
+    \item[Docker] - advanced
+    \item[Git] - advanced
+    \item[CI/CD] - intermediate
+    \item[AWS] - intermediate
+\end{itemize}
+%
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+  {03.19--Now}
+  {Thaumatec Sp. z o.o.}
+  {Wrocław, Poland}
+  {\jobtitle{Technical Product Owner}\\
+  Technical product owner in biometric project for US client. As technical product owner my responsibilities are:
+  \begin{itemize}
+    \item backlog maintenance
+    \item negotiate acceptance criteria with stakeholder
+    \item negotiate acceptance criteria and description with development team
+    \item performing process of accepting, reviewing and sizing new items for backlog
+    \item help team to understand the product owners priorities
+    \item help stakeholder to prioritize the product backlog
+    \item manage Jira
+  \end{itemize}}
+%------------------------------------------------
+\entry
+  {03.15--Now}
+  {Thaumatec Sp. z o.o.}
+  {Wrocław, Poland}
+  {\jobtitle{Software Engineer}\\
+  As a Software Engineer I'm a member of development team working on biometric device for humans recognition. My duties in team:
+  \begin{itemize}
+    \item developing and maintenance of CI/CD
+    \item developing Python code
+    \item developing C/C++ code
+  \end{itemize}}
+%------------------------------------------------
+\entry
+  {12.17--02.19}
+  {Thaumatec Sp. z o.o.}
+  {Wrocław, Poland}
+  {\jobtitle{Scrum Master}\\
+  As Scrum Master I was a member of development team working on biometric device for humans recognition. My duties were:
+  \begin{itemize}
+    \item Performing \& managing scrum meetings
+    \item Performing \& managing daily stand-ups
+    \item Coaching development team members and product owners
+    \item Monitoring sprint progress and reporting status to product owners
+  \end{itemize}}
+%------------------------------------------------
+\entry
+  {12.14--03.15}
+  {Nokia Sp. z o.o.}
+  {Wrocław, Poland}
+  {\jobtitle{SCM Engineer}\\
+  My duties as SCM Engineer were:
+  \begin{itemize}
+    \item Automate the process of compiling source code into binary code
+    \item Automate the process of assembling of software package for software release
+    \item Automate the process of assembling of other software artifacts
+    \item Cooperation with system architects and other stakeholders involved in a project
+  \end{itemize}}
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--2014}
+{M.Sc. {\normalfont Advanced Applied Electronics}}
+{Wrocław University of Science and Technology}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\entry
+{2009--2013}
+{B.Eng. {\normalfont in Computer Science}}
+{Wrocław University of Science and Technology}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	OTHER QUALIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{other qualifications}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2016}
+{2 days Scrum master training with SCRUM DROID workshop}
+{Agile force}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+  \vspace{-0.2cm}
+
+\textbf{professional:} Agile, Scrum, FPGA, microcontrollers, Computer architecture \\  
+\textbf{personal:} brewing, speedway, physics \& astronomy 
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
